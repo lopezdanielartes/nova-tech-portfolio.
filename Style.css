@@ -1,0 +1,112 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+/* BODY */
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* HEADER */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #111;
+  color: #fff;
+}
+
+header .logo span {
+  font-weight: bold;
+  color: #ffcc00;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+header nav a:hover {
+  color: #ffcc00;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: #222;
+  color: #fff;
+}
+
+.hero .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  color: #111;
+  text-decoration: none;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+/* SERVICES */
+.services {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.service-card {
+  display: inline-block;
+  width: 250px;
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* TESTIMONIALS */
+.testimonials {
+  padding: 60px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.testimonials blockquote {
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+/* CONTACT */
+.contact {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact input, .contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #111;
+  color: #fff;
+}
